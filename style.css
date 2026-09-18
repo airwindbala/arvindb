@@ -22,7 +22,7 @@ html{ -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:
 body{
   margin:0; background:var(--ground); color:var(--ink);
   font-family:"Newsreader",Georgia,serif; font-optical-sizing:auto;
-  font-size:19px; font-weight:400; line-height:1.62; text-rendering:optimizeLegibility;
+  font-size:17px; font-weight:400; line-height:1.62; text-rendering:optimizeLegibility;
 }
 .ta{ font-family:"Noto Serif Tamil","Newsreader",serif; font-size:.95em; }
 img{ max-width:100%; height:auto; display:block; }
@@ -84,7 +84,7 @@ a:focus-visible{ outline:2px solid var(--accent); outline-offset:3px; border-rad
 /* ---------- hero ---------- */
 
 .hero{
-  max-width:var(--wide); margin:0 auto; padding:4.5rem 1.5rem 4rem;
+  max-width:var(--wide); margin:0 auto; padding:2.5rem 1.5rem 2.5rem;
   display:grid; grid-template-columns:minmax(0,1fr) minmax(14rem,17rem);
   gap:3rem clamp(2rem,4vw,5rem); align-items:center;
 }
